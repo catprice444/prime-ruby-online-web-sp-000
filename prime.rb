@@ -1,12 +1,8 @@
 require 'prime'
 
-# def prime_number(number)
-#   array = []
-#   (array).to_a
-#   Prime.each(number) do |prime|
-#   end
-# end
-
-Prime.each(100) do |prime|
-  p prime
+def prime_number(n)
+  array = []
+  (array).to_a
+  return false if n <2
+  (2..n/2).none?{|i| n % i == 0}
 end

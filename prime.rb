@@ -7,5 +7,5 @@ require 'prime'
 #   end
 # end
 
-prime? = []
+prime? =[]
 Prime.prime?()
